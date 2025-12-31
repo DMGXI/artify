@@ -13,12 +13,16 @@
     }
     /* <!-- make by hp --> */
     *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
-    body{
-      color:var(--dark);
-      background:linear-gradient(120deg,#eef2ff,#f0fdf4,#ecfeff);
-      background-size:400% 400%;
-      animation:bgMove 12s ease infinite;
-    }
+   body{
+  color: var(--dark);
+  background-image: url("Blue Abstract Wave Phone Wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
     @keyframes bgMove{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
 
     header{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:white;position:sticky;top:0;z-index:10;box-shadow:0 10px 30px rgba(0,0,0,.05)}
@@ -129,12 +133,12 @@
     <h1 id="heroText" class="slide-text"></h1>
     <button class="btn" onclick="showPage('shop')">Shop Now</button>
 
-    <div class="hero-images">
+    <!-- <div class="hero-images">
       <img src="https://images.unsplash.com/photo-1505483531331-8325e0c0b8a9" class="float img1" />
       <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f" class="float img2" />
       <img src="https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1" class="float img3" />
     </div>
-  </div>
+  </div> -->
 </section>
 
 <section id="shop">
